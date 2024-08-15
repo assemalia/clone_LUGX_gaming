@@ -1,0 +1,194 @@
+
+body{
+    margin: 0;
+}
+.header{
+    background-color: #2386fe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.logo{
+    width: 100px;
+}
+.btn{
+    background-color: #EE626B;
+    border: none;
+    color: #ffff;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color:#f2858c ;
+}
+.header-links a{
+    color: #ffff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+.header-links a:hover{
+    background-color: #2386fe;
+}
+
+.landing-page{
+    background-color: #2386fe;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    color: #ffff;
+    border-radius: 0 0 50px 50px;
+
+}
+.landing-page-left{
+    width: 500px;
+}
+.landing-page-search input{
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    height: 30px;
+    padding:0 10px ;
+    
+}
+.landing-page-search button{
+    position: absolute;
+    left: 200px;
+    height: 30px;
+}
+.landing-page-image-container img {
+ border-radius: 20px;
+ width: 250px;
+}
+.trending-container{
+    padding: 25px  50px;
+}
+.trending-container span {
+    color: red;
+    text-transform: uppercase ;
+    font-size: 14px;
+}
+.trending-Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending-Header h1{
+    margin-top: 0px;
+}
+.trending-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+ width: 300px;   
+ background-color: #EEEEEE;
+ border-radius: 20px;
+ transition: 0.3s;
+}
+.card:hover{
+    background-color: #dcd7d7;
+    scale: 1.01;
+}
+.card img{
+ border-radius: 20px 20px 0 0 ;   
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+.card-info img{
+    width: 40px;
+}
+
+/* Top Games */
+.top-games{
+    background-color: #EEEEEE;
+    padding: 30px 50px;
+    border-radius: 50px ;
+}
+.top-games span{
+    color: red;
+    text-transform: uppercase ;
+    font-size: 14px;
+}
+.top-games h1{
+    margin-top: 0px;
+}
+.top-games-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.top-games-cards{
+ display: flex;
+ justify-content: space-between;
+}
+.top-games-card{
+    text-align: center;
+    border-radius: 15px;
+    line-height: 0.3;
+    transition: 0.3s;
+    padding: 10px 2px;
+}
+.top-games-card:hover{
+    border-width: 2px;
+    background-color: #cab7b7;
+}
+.top-games-card:hover .btn {
+ scale: 1.1;
+}
+.top-games-card img{
+    width: 150px;
+    border-radius: 15px;
+}
+.top-games-card p{
+    color: #676161;
+}
+.top-games-card h4{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/*Top Categorie */
+.top-categories{
+    text-align: center;
+    padding: 50px 50px;
+}
+.top-categories-cards{
+   display: flex;
+   justify-content: space-between;
+   
+}
+.top-categories-card{
+    background-color: #2386fe;
+    color: #ffff;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.top-categories-card:hover{
+  scale: 1.1;
+}
+.top-categories-card img{
+    border-radius: 15px;
+    margin-bottom: 0;
+}
+/*footer*/
+.footer{
+    background-color: #2386fe;
+    height: 100px;
+    border-radius: 50px 50px 0 0;
+    align-content: center;
+}
+
+.footer h3{
+    color: #ffff;
+    text-align: center;
+    font-weight: 300;
+}
